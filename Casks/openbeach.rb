@@ -1,6 +1,6 @@
 cask "openbeach" do
-  version "2.0.2"
-  sha256 "fd55053a1d8a73ffe24f897361afd63193832410bceae0e3dc9433f3cc78a89c"
+  version "2.0.3"
+  sha256 "bcef06050cfe842502eb0cf2939d5d4c79047454948eb4f4553e63c2625e1dc9"
 
   url "https://github.com/Lucanepa/openvolley/releases/download/beach-desktop-v#{version}/OpenBeach_#{version}_universal.dmg",
       verified: "github.com/Lucanepa/openvolley/"
