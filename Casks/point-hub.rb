@@ -1,9 +1,9 @@
 cask "point-hub" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "71b8d8092f754a18089a3be508085b01022f4d2e9d6ac56a66c3941829f90264",
-         intel: "570901a220aa59ea801181da75ded7c1443a6c0a6e93e7d92d72c67fe13829ab"
+  version "1.1.1"
+  sha256 arm:   "d17e84f2a11b9356bc7ce1c3b984ddfca299067b2f983f7b8321cd025bb6835a",
+         intel: "b1be16be3a77c350547d068c44e39a2531739d9b09ecef38e20e538bb14a2752"
 
   url "https://github.com/Lucanepa/point-hub/releases/download/desktop-v#{version}/Point-Hub-#{version}-macos-#{arch}.dmg",
       verified: "github.com/Lucanepa/point-hub/"
