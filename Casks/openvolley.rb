@@ -1,6 +1,6 @@
 cask "openvolley" do
-  version "3.0.18"
-  sha256 "6bb145968d281eecae544f9e6b55490462a204d4abf2c9cd4292be0048dd4f7c"
+  version "3.0.19"
+  sha256 "865cb862fda8a8e6af48d1bbbb90bc9d3c7fdab702e2aff2fdb21d6606d03186"
 
   url "https://github.com/Lucanepa/openvolley/releases/download/desktop-v#{version}/OpenVolley.eScoresheet_#{version}_universal.dmg",
       verified: "github.com/Lucanepa/openvolley/"
@@ -30,11 +30,4 @@ cask "openvolley" do
     "~/Library/Saved Application State/com.openvolley.escoresheet.savedState",
     "~/Library/WebKit/com.openvolley.escoresheet",
   ]
-
-  caveats <<~EOS
-    OpenVolley eScoresheet is not notarized by Apple, so macOS blocks its
-    first start. Open it once, then System Settings > Privacy & Security >
-    Open Anyway. Or in Terminal:
-      xattr -dr com.apple.quarantine "/Applications/OpenVolley eScoresheet.app"
-  EOS
 end
