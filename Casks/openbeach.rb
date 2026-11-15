@@ -1,6 +1,6 @@
 cask "openbeach" do
-  version "3.0.3"
-  sha256 "cb2e1d1ce5c84b90879d627bc68ecd007570998ca2a45759603866b287c6c886"
+  version "3.0.4"
+  sha256 "780d89f8c857bdf9945588cb45eb50da80a7e925f534148198595a7d376f3eb9"
 
   url "https://github.com/Lucanepa/openvolley/releases/download/beach-desktop-v#{version}/OpenBeach_#{version}_universal.dmg",
       verified: "github.com/Lucanepa/openvolley/"
@@ -30,11 +30,4 @@ cask "openbeach" do
     "~/Library/Saved Application State/com.openvolley.beach.savedState",
     "~/Library/WebKit/com.openvolley.beach",
   ]
-
-  caveats <<~EOS
-    OpenBeach is not notarized by Apple, so macOS blocks its first start.
-    Open it once, then System Settings > Privacy & Security > Open Anyway.
-    Or in Terminal:
-      xattr -dr com.apple.quarantine /Applications/OpenBeach.app
-  EOS
 end
