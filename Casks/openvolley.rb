@@ -1,6 +1,6 @@
 cask "openvolley" do
-  version "26.11.9"
-  sha256 "08663268b911faa5dfc9a5e719617a9a0e1642257685aa8ee3039e54c5ecedfb"
+  version "26.11.10"
+  sha256 "1731280c5796f3b651b07d72780167feb37a53e09afffc993ca4fb880e58a198"
 
   url "https://github.com/Lucanepa/openvolley/releases/download/desktop-v#{version}/OpenVolley.eScoresheet_#{version}_universal.dmg",
       verified: "github.com/Lucanepa/openvolley/"
